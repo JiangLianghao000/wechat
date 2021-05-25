@@ -1,0 +1,69 @@
+body{
+    background: url("../img/beijing1.jpg") center; /* 首先增加背景图 */
+    background-repeat: no-repeat; /* 将背景设置为不重复显示 */
+    background-size: cover;
+    /* 放大背景图片，使其覆盖整个背景区域，但可能有些部分无法显示 */
+    background-attachment: fixed;
+    /* 背景滚动时，固定背景 */
+}
+
+#content{
+    border: 1px solid wheat;
+    width: 80%;
+    height: 90%;
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1%;
+    background: wheat;
+    padding: 20px 50px;
+    margin-left: 5%;
+}
+
+.near{
+    border: 1px solid white;
+    width: 10%;
+    height: 106.5%;
+    text-align: center;
+    margin-left: -5%;
+    margin-top: -2%;
+    background: silver;
+}
+
+.middle_cicle{
+    border: 1px solid wheat;
+    width: 80%;
+    height: 104%;
+    text-align: center;
+    background: white;
+    margin-left: 14%;
+    margin-top: -62%;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.td_1{
+    width: 600px;
+}
+
+.table{
+    width: 105%;
+    margin-left: -40px;
+}
+
+.icon-add-fill-hover{
+    cursor: pointer;
+}
+
+.iconfont{
+    cursor: pointer;
+}
+
+.icon-ziji{
+    cursor: pointer;
+}
+
+
+
+
+

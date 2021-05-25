@@ -1,0 +1,289 @@
+body{
+    background: url("../img/beijing1.jpg") center; /* 首先增加背景图 */
+    background-repeat: no-repeat; /* 将背景设置为不重复显示 */
+    background-size: cover;
+    /* 放大背景图片，使其覆盖整个背景区域，但可能有些部分无法显示 */
+    background-attachment: fixed;
+    /* 背景滚动时，固定背景 */
+    overflow: auto;
+}
+
+.content_1{
+    border: 1px solid blue;
+    width: 80%;
+    height: 91%;
+    position: absolute;
+    margin: 0 auto;
+    margin-top:0;
+    background: wheat;
+    padding: 20px 50px;
+    margin-left: 5%;
+}
+
+.managerHead_1{
+    border: 1px solid white;
+    width: 109.4%;
+    height: 10%;
+    text-align: left;
+    margin-left: -4.8%;
+    margin-top: -2%;
+    background: silver;
+    text-align: center;
+}
+
+.chatArea{
+    margin-left: -4.8%;
+    height: 350px;
+    width: 797px;
+    background-color: wheat;
+    overflow: auto;
+}
+
+.middle{
+    background-color: silver;
+    margin-left: -4.7%;
+    height: 50px;
+    width: 800px;
+}
+
+.buttom{
+    background-color: white;
+    margin-left: -4.7%;
+    height: 164px;
+    width: 800px;
+}
+
+.friendList{
+    background-color: white;
+    height: 40px;
+    width: 99.5%;
+}
+
+.allFriend{
+    background-color: white;
+    height: 250px;
+    margin-top: -0.2px;
+    overflow: auto;
+}
+
+.right{
+    background-color: #cccccc;
+    margin-left: 73.4%;
+    height: 574px;
+    width: 322px;
+    margin-top: -567px;
+}
+
+.radio{
+    background-color: white;
+    height: 40px;
+    margin-top: -16px;
+    width: 99.5%;
+}
+
+.allMessages{
+    background-color: white;
+    height: 233px;
+    margin-top: -0.2px;
+    overflow: auto;
+}
+
+.icon-liaotian-copy{
+    position: absolute;
+    margin-left: 385px;
+    cursor: pointer;
+}
+
+.icon-Ovalx{
+    position: absolute;
+    margin-left: 200px;
+    cursor: pointer;
+}
+
+.icon-biaoqingbao{
+    position: absolute;
+    margin-left: 250px;
+    cursor: pointer;
+}
+
+.icon-wenjian{
+    position: absolute;
+    margin-left: 300px;
+    cursor: pointer;
+}
+
+.icon-tianjia{
+    position: absolute;
+    margin-left: 350px;
+    cursor: pointer;
+}
+
+.sendMsg{
+    position: absolute;
+    cursor: pointer;
+}
+
+.table_1{
+    cursor: pointer;
+}
+
+.tr_1{
+
+}
+
+.printContent{
+    margin-left:0px;
+    height: 158px;
+    width: 790px;
+}
+
+.on_left{
+    width: 797px;
+    height: 60px;
+
+}
+
+.heading{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+
+.on_left_content{
+    width: 700px;
+    height: 50px;
+    margin-left: 30px;
+    font-family:'宋体';
+    background-color: wheat;
+    font-size: 30px;
+    text-align: right;
+
+}
+
+.on_right{
+    width: 797px;
+    height: 60px;
+    border-color: wheat;
+}
+
+.heading1{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 740px;
+    border-radius: 100%;
+}
+
+.on_right_content{
+    width: 700px;
+    height: 50px;
+    background-color: wheat;
+    margin-left: 60px;
+    font-family:'宋体';
+    font-size: 30px;
+    text-align: left;
+
+}
+
+.file{
+    margin-left: -22px;
+    size: 20px;
+    position: absolute;
+    width: 26px;
+    margin-top: -3px;
+    cursor: pointer;
+}
+
+.heading2{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 740px;
+    border-radius: 100%;
+}
+
+
+.on_right_content1{
+    margin-top: -30px;
+    margin-left: 530px;
+}
+
+.files {
+    margin-top: -30px;
+}
+
+.showRecord{
+    position: absolute;
+    margin-left: 150px
+}
+
+.color{
+    position: absolute;
+    margin-left: 180px;
+    width:10px;
+}
+
+.printContent1{
+    margin-left:0px;
+    height: 158px;
+    width: 790px;
+    margin-top: -155px;
+    background-color: wheat;
+}
+
+.on_right_content2{
+    margin-left: 530px;
+}
+
+.announce{
+
+    width: 500px;
+    height: 200px;
+    background-color: white;
+    margin-top:-6px ;
+    overflow-y: auto;
+    margin-left: -50px;
+}
+
+.biaoqingbao{
+    margin-left: 450px;
+    width: 613px;
+    height: 200px;
+    margin-top: -199px;
+    background-color: snow;
+    overflow: auto;
+    cursor: pointer;
+}
+
+.get{
+    cursor: pointer;
+}
+
+.on_right2{
+    margin-left: 430px;
+}
+
+
+.file1{
+    position: absolute;
+    width: 20px;
+    margin-left: -20px;
+    cursor: pointer;
+}
+
+.on_right4{
+    font-size: 20px;
+}
+
+.files1 {
+    margin-top: -30px;
+    margin-left: 340px;
+}
+
+.on_right_content3{
+    margin-top: -30px;
+    margin-left: 560px;
+}
+

@@ -1,0 +1,140 @@
+body{
+    background: url("../img/beijing1.jpg") center; /* 首先增加背景图 */
+    background-repeat: no-repeat; /* 将背景设置为不重复显示 */
+    background-size: cover;
+    /* 放大背景图片，使其覆盖整个背景区域，但可能有些部分无法显示 */
+    background-attachment: fixed;
+    /* 背景滚动时，固定背景 */
+}
+
+.content{
+    border: 1px solid blue;
+    width: 40%;
+    height: 150%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1%;
+    background:wheat;
+    padding: 60px 70px;
+}
+
+.iconfont{
+    margin-top:10px;
+    font-size: 50px;
+    position: absolute;
+    margin-left:-20px;
+}
+
+.head_portrait{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top:40%;
+    left: 35%;
+    margin-left: -70px;
+    margin-top: -130px;
+    background: #737373;
+    text-align: center;
+}
+.itxt{
+    width: 200px; /* 设置合适的宽度 */
+    border: 0; /* 首先将边界取消，方便下面修改下部边界宽度 */
+    border-bottom: 5px solid white; /* 将下边界进行修改，显示出横线效果 */
+    font-size: 18px; /* 将字体适当的变大加粗 */
+    background: #ffffff00; /* 将输入框设置为透明 */
+    color: white; /* 上面的文本颜色设置为白色，但是placeholder的颜色要单独设置 */
+    padding: 5px 10px; /* 为了placeholder的内容不是顶格显示，增加内部边界 */
+}
+
+.labels{
+    margin-left:-90px;
+    position: absolute;
+    color: green;
+
+}
+
+.button_css{
+    border: 0; /* 取消按钮的边界 */
+    width: 150px; /* 设置合适的按钮的长和宽 */
+    height: 30px;
+    margin-top: 18px; /* 设置合适的上部外框的宽度，增加与上面的password框的距离 */
+    font-size: 18px; /* 修改按钮文字的大小 */
+    color: white; /* 修改按钮上文字的颜色 */
+    border-radius: 25px; /* 将按钮的左右边框设置为圆弧 */
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%); /* 为按钮增加渐变颜色 */
+    margin-left: 6%;
+    cursor: pointer;
+}
+
+#iconid{
+    position: absolute;
+    margin-left: -120px;
+    margin-top:initial;
+}
+
+#iconzhanghao{
+    position: absolute;
+    margin-left: -120px;
+    margin-top:initial;
+}
+
+#iconshenfen{
+    position: absolute;
+    margin-left: -120px;
+    margin-top:initial;
+}
+
+.setHead{
+    position: absolute;
+    margin-left: -220px;
+    margin-top: 180px;
+    height: 30px;
+    width: 60px;
+}
+
+.setHead{
+    width: 60px; /* 宽度 */
+    height: 30px; /* 高度 */
+    border-width: 0px; /* 边框宽度 */
+    border-radius: 3px; /* 边框半径 */
+    background: #1E90FF; /* 背景颜色 */
+    cursor: pointer; /* 鼠标移入按钮范围时出现手势 */
+    outline: none; /* 不显示轮廓线 */
+    font-family: Microsoft YaHei; /* 设置字体 */
+    color: white; /* 字体颜色 */
+    font-size: 17px;
+    margin-left:-221px;
+    position: absolute;
+} /* 字体大小 */
+
+.file1{
+    margin-left: -17.2%;
+    margin-top:1%;
+    position: absolute;
+}
+
+.icon-xingming{
+    margin-left: -20.5%;
+    margin-top: 0%;
+}
+
+.iconyouxiang{
+    margin-left: -20.5%;
+    margin-top: 0%;
+}
+
+.iconic_pengyouquan_x{
+    margin-left: -20.5%;
+    margin-top: 0%;
+}
+
+.iconquanxian{
+    margin-left: -20.5%;
+    margin-top: 0%;
+}
+
+.iconbeizhu1{
+    margin-left: -20.5%;
+    margin-top: 0%;
+}

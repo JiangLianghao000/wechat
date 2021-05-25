@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <!-- 配置servlet -->
+    <servlet>
+        <servlet-name>UserServlet</servlet-name>
+        <servlet-class>com.jianglianghao.view.UserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserServlet</servlet-name>
+        <url-pattern>/userServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserMSGServlet</servlet-name>
+        <servlet-class>com.jianglianghao.view.UserMSGServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserMSGServlet</servlet-name>
+        <url-pattern>/userMSGServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FileServlet</servlet-name>
+        <servlet-class>com.jianglianghao.view.FileServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FileServlet</servlet-name>
+        <url-pattern>/fileServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>UserAndFriendServlet</servlet-name>
+        <servlet-class>com.jianglianghao.view.UserAndFriendServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserAndFriendServlet</servlet-name>
+        <url-pattern>/userAndFriendServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserAndGroupServlet</servlet-name>
+        <servlet-class>com.jianglianghao.view.UserAndGroupServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserAndGroupServlet</servlet-name>
+        <url-pattern>/userAndGroupServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CircleServlet</servlet-name>
+        <servlet-class>com.jianglianghao.view.CircleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CircleServlet</servlet-name>
+        <url-pattern>/circleServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ManagerServlet</servlet-name>
+        <servlet-class>com.jianglianghao.view.ManagerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ManagerServlet</servlet-name>
+        <url-pattern>/managerServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserChatServlet</servlet-name>
+        <servlet-class>com.jianglianghao.view.UserChatServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserChatServlet</servlet-name>
+        <url-pattern>/userChatServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TravelServlet</servlet-name>
+        <servlet-class>com.jianglianghao.view.TravelServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TravelServlet</servlet-name>
+        <url-pattern>/travelServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>GroupChatServlet</servlet-name>
+        <servlet-class>com.jianglianghao.view.GroupChatServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GroupChatServlet</servlet-name>
+        <url-pattern>/groupChatServlet</url-pattern>
+    </servlet-mapping>
+
+
+
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+
+    <!--filter 标签用于配置一个 Filter 过滤器-->
+    <filter>
+        <!--给 filter 起一个别名-->
+        <filter-name>LoginFilter</filter-name>
+        <!--配置 filter 的全类名-->
+        <filter-class>com.jianglianghao.view.filter.LoginFilter</filter-class>
+    </filter>
+    <!--filter-mapping 配置 Filter 过滤器的拦截路径-->
+    <filter-mapping>
+        <!--filter-name 表示当前的拦截路径给哪个 filter 使用-->
+        <filter-name>LoginFilter</filter-name>
+        <!--url-pattern 配置拦截路径 / 表示请求地址为：http://ip:port/工程路径/ 映射到 IDEA 的 web 目录 /pages/* 表示请求地址为：http://ip:port/工程路径/pages/* -->
+        <url-pattern>/pages/user/login.jsp</url-pattern>
+    </filter-mapping>
+
+
+    <!--filter 标签用于配置一个 Filter 过滤器-->
+    <filter>
+        <!--给 filter 起一个别名-->
+        <filter-name>xssFilter</filter-name>
+        <!--配置 filter 的全类名-->
+        <filter-class>com.jianglianghao.view.filter.xssFilter</filter-class>
+    </filter>
+    <!--filter-mapping 配置 Filter 过滤器的拦截路径-->
+    <filter-mapping>
+        <!--filter-name 表示当前的拦截路径给哪个 filter 使用-->
+        <filter-name>xssFilter</filter-name>
+        <!--url-pattern 配置拦截路径 / 表示请求地址为：http://ip:port/工程路径/ 映射到 IDEA 的 web 目录 /pages/* 表示请求地址为：http://ip:port/工程路径/pages/* -->
+        <url-pattern>/pages/mainView</url-pattern>
+        <url-pattern>/pages/others</url-pattern>
+        <url-pattern>/pages/user</url-pattern>
+        <dispatcher>REQUEST</dispatcher>
+    </filter-mapping>
+
+    <listener>
+        <listener-class>com.jianglianghao.view.listen.ApplicationInit</listener-class>
+    </listener>
+</web-app>

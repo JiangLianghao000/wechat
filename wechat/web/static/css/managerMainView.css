@@ -1,0 +1,187 @@
+body{
+    background: url("../img/beijing1.jpg") center; /* 首先增加背景图 */
+    background-repeat: no-repeat; /* 将背景设置为不重复显示 */
+    background-size: cover;
+    /* 放大背景图片，使其覆盖整个背景区域，但可能有些部分无法显示 */
+    background-attachment: fixed;
+    /* 背景滚动时，固定背景 */
+}
+
+.content{
+    border: 1px solid blue;
+    width: 80%;
+    height: 90%;
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1%;
+    background: wheat;
+    padding: 20px 50px;
+    margin-left: 5%;
+
+}
+
+.managerHead{
+    border: 1px solid white;
+    width: 109.4%;
+    height: 10%;
+    text-align: left;
+    margin-left: -4.8%;
+    margin-top: -2%;
+    background: silver;
+    text-align: center;
+}
+
+.middle_content{
+    border: 1px solid white;
+    width: 109.4%;
+    height: 80%;
+    text-align: left;
+    margin-left: -4.8%;
+    background: whitesmoke;
+    text-align: center;
+}
+
+.end_content{
+    border: 1px solid white;
+    width: 109.4%;
+    height: 20%;
+    text-align: left;
+    margin-left: -4.8%;
+    background: ghostwhite;
+    text-align: center;
+}
+
+.accountForCicle{
+    margin-top: 3%;
+}
+
+.allUser{
+    background-color: wheat;
+    width: 40%;
+    height: 100%;
+    margin-top: -0.1%;
+    overflow: auto;
+}
+
+.mid_content_iframe{
+    border-color: #e1e5e8;
+    width: 44%;
+    height: 73%;
+    margin-top: -43.5%;
+    position:absolute;
+    margin-left: -4%;
+}
+
+.banAccount{
+    position: absolute;
+    margin-left: 43%;
+    margin-top: -10%;
+}
+
+.not_banAccoutn{
+    position: absolute;
+    margin-left: 43%;
+    margin-top: -30%;
+}
+
+.td_1{
+    height: 100px;
+}
+
+body{
+    background: url("../img/beijing1.jpg") center; /* 首先增加背景图 */
+    background-repeat: no-repeat; /* 将背景设置为不重复显示 */
+    background-size: cover;
+    /* 放大背景图片，使其覆盖整个背景区域，但可能有些部分无法显示 */
+    background-attachment: fixed;
+    /* 背景滚动时，固定背景 */
+}
+
+.content{
+    border: 1px solid blue;
+    width: 80%;
+    height: 90%;
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1%;
+    background: wheat;
+    padding: 20px 50px;
+    margin-left: 5%;
+
+}
+
+.managerHead{
+    border: 1px solid white;
+    width: 109.4%;
+    height: 10%;
+    text-align: left;
+    margin-left: -4.8%;
+    margin-top: -2%;
+    background: silver;
+    text-align: center;
+}
+
+.middle_content{
+    border: 1px solid white;
+    width: 109.4%;
+    height: 80%;
+    text-align: left;
+    margin-left: -4.8%;
+    background: whitesmoke;
+    text-align: center;
+}
+
+.end_content{
+    border: 1px solid white;
+    width: 109.4%;
+    height: 20%;
+    text-align: left;
+    margin-left: -4.8%;
+    background: ghostwhite;
+    text-align: center;
+}
+
+.accountForCicle{
+    margin-top: 3%;
+}
+
+.allUser{
+    background-color: wheat;
+    width: 40%;
+    height: 100%;
+    margin-top: -0.1%;
+}
+
+.mid_content_iframe{
+    border-color: #e1e5e8;
+    width: 44%;
+    height: 73%;
+    margin-top: -43.5%;
+    position:absolute;
+    margin-left: -4%;
+}
+
+.banAccount{
+    position: absolute;
+    margin-left: 43%;
+    margin-top: -10%;
+}
+
+.not_banAccoutn{
+    position: absolute;
+    margin-left: 43%;
+    margin-top: -30%;
+}
+
+.td_1{
+    height: 100px;
+}
+
+.table_1{
+    width: 109%;
+    margin-left: -9%;
+    border-color: wheat;
+    overflow: auto;
+}
